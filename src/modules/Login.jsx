@@ -12,7 +12,9 @@ const Login = () => {
   }, []);
   return (
     <div>
-      <h2>Register</h2>
+      <Box sx={{ mt: 2 }}>
+        <h2>Login</h2>
+      </Box>
       <Box sx={{ mt: 2 }}>
         <TextField
           variant="outlined"
@@ -24,7 +26,7 @@ const Login = () => {
         <TextField variant="outlined" label="Password" />
       </Box>
       <Button sx={{ mt: 2 }} variant="contained">
-        Sign in
+        Sign In
       </Button>
       <Button
         sx={{ mt: 2, ml: 2 }}

@@ -12,7 +12,9 @@ const Register = () => {
   }, []);
   return (
     <div>
-      <h2>Register</h2>
+      <Box sx={{ mt: 2 }}>
+        <h2>Register</h2>
+      </Box>
       <Box sx={{ mt: 2 }}>
         <TextField
           variant="standard"
