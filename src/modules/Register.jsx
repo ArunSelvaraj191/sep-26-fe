@@ -105,13 +105,13 @@ validatePassword(userDetails.password);
       {error && <Typography variant="body1" color="error">{errorMsg}</Typography>}
    
       <Button
-        sx={{ mt: 2, ml: 2 }}
+        sx={{ mt: 2 }}
         variant="outlined"
         onClick={() => navigate("/")}
       >
         Sign in
       </Button>
-         <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignup}>
+         <Button  sx={{ mt: 2, ml: 2 }} variant="contained" onClick={handleSignup}>
         Sign up
       </Button>
     </div>

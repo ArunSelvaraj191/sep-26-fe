@@ -60,13 +60,13 @@ const Login = () => {
       </Box>
    
       <Button
-        sx={{ mt: 2, ml: 2 }}
+       sx={{ mt: 2 }}
         variant="outlined"
         onClick={() => navigate("/register")}
       >
         Sign up
       </Button>
-         <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignIn}>
+         <Button  sx={{ mt: 2, ml: 2 }}  variant="contained" onClick={handleSignIn}>
         Sign In
       </Button>
     </div>
