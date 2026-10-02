@@ -58,15 +58,16 @@ const Login = () => {
       <Box sx={{ mt: 2 }}>
         <TextField required type="password" name="password" value={userDetails.password} variant="outlined" label="Password" onChange={handleChange} />
       </Box>
-      <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignIn}>
-        Sign In
-      </Button>
+   
       <Button
         sx={{ mt: 2, ml: 2 }}
         variant="outlined"
         onClick={() => navigate("/register")}
       >
         Sign up
+      </Button>
+         <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignIn}>
+        Sign In
       </Button>
     </div>
   );

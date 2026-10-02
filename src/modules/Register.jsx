@@ -103,15 +103,16 @@ validatePassword(userDetails.password);
         <TextField required type="password" name='cpassword' value={userDetails.cpassword} variant="outlined" label="Confirn Password" onChange={handleChange} />
       </Box>
       {error && <Typography variant="body1" color="error">{errorMsg}</Typography>}
-      <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignup}>
-        Sign up
-      </Button>
+   
       <Button
         sx={{ mt: 2, ml: 2 }}
         variant="outlined"
         onClick={() => navigate("/")}
       >
         Sign in
+      </Button>
+         <Button sx={{ mt: 2 }} variant="contained" onClick={handleSignup}>
+        Sign up
       </Button>
     </div>
   );
